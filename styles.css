@@ -1,0 +1,17 @@
+.card{
+    width: 200px;
+    background-color: rgb(230, 3, 3);
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
