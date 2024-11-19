@@ -1,17 +1,51 @@
 .card{
-    width: 200px;
-    background-color: rgb(230, 3, 3);
+    width: 210px;
+    background-color: #14253d;
+    border-radius: 10px;
     overflow: hidden;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #f3f3f3;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5)
 }
 
 
-.container-image img{
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+}
+
+.container-image img{
+    width: 90%;
     height: auto;
     display: block;
 }
+
+.creator-description{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.creator-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.creator a {
+    color: #00fff7;
+    text-decoration: none;
+  }
