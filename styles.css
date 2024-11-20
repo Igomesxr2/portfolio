@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(135deg, #000000, #1a1a1a);
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,11 +10,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .card {
-    width: 210px;
-    height: 400px;
+    width: 250px;
+    height: 450px;
     perspective: 1000px;
     position: relative;
     transform-style: preserve-3d;
@@ -25,6 +27,11 @@ body {
     align-items: center;
     will-change: transform;
     margin-top: 50px;
+    margin: 50px;
+}
+
+.card h1{
+    font-size: 1.8rem;
 }
 
 .card:hover {
